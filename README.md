@@ -55,7 +55,7 @@ cd Data-Visualisation-Tool
         password VARCHAR(255) NOT NULL
     );
     ```
-4.  Update the database credentials in `src/DBUtil.java` if they differ from the defaults (`root`/`pranisha`).
+4.  Update the database credentials in `src/DBUtil.java` if they differ from the defaults .
 
     ```java
     private static final String URL = "jdbc:mysql://localhost:3306/datavisualisationdb";
@@ -111,6 +111,14 @@ Once the application is running, you can:
 1.  **Sign up** for a new account.
 2.  **Login** with your credentials.
 3.  After logging in, you will be taken to the main screen where you can choose a chart type to visualize data.
+
+## Screenshots
+
+Below are some screenshots of the application dashboard.
+
+![Login and Signup](https://github.com/user-attachments/assets/b191c400-b8d5-48e1-b6c3-7a0d893b7942)
+![Main Dashboard](https://github.com/user-attachments/assets/dad2df6b-124c-40f4-a3b4-3490ed4b025a)
+![Pie Chart Example](https://github.com/user-attachments/assets/3d90cdca-653e-4810-9e3a-dd97c555dc67)
 
 ## Contributing
 
