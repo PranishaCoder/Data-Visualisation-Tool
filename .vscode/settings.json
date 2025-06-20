@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.referencedLibraries": [
+    "${workspaceFolder}/src/*.jar",
+    "C:/Users/Admin/Desktop/My _learnings/JAVA/Projects/javafx-sdk-24.0.1/lib/*.jar",
+    "C:/Users/Admin/Downloads/mysql-connector-java-5.1.11/mysql-connector-java-5.1.11/mysql-connector-java-5.1.11-bin.jar"
+  ]
+}

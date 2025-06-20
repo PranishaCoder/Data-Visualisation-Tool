@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainscreen" styleClass="root" prefHeight="600" prefWidth="800">
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+
+    <top>
+        <HBox alignment="CENTER_LEFT" styleClass="header-bar">
+            <Label text="Data Visualization Dashboard" styleClass="header-title" />
+            <Pane HBox.hgrow="ALWAYS" />
+            <Button fx:id="logoutButton" text="Logout" id="logoutButton" />
+        </HBox>
+    </top>
+
+    <center>
+        <VBox styleClass="content-area">
+            <Label text="Interactive Data Visualization Tool" styleClass="content-title" />
+            <VBox spacing="20.0" alignment="CENTER" style="-fx-padding: 30 0 0 0;">
+                <Button text="Pie Chart" fx:id="pieButton" id="pieButton" styleClass="chart-button" />
+                <Button text="Bar Chart" fx:id="barButton" id="barButton" styleClass="chart-button" />
+                <Button text="Line Chart" fx:id="lineButton" id="lineButton" styleClass="chart-button" />
+                <Button text="Area Chart" fx:id="areaButton" id="areaButton" styleClass="chart-button" />
+                <Button text="Scatter Chart" fx:id="scatterButton" id="scatterButton" styleClass="chart-button" />
+                <Button text="Bubble Chart" fx:id="bubbleButton" id="bubbleButton" styleClass="chart-button" />
+            </VBox>
+        </VBox>
+    </center>
+
+</BorderPane> 
